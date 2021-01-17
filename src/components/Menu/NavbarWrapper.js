@@ -5,7 +5,7 @@ export const NavbarWrapper = styled.nav`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: #09044b;
+  background: #0d2735;
   position: fixed;
   top: 10vh;
   right: ${(props) => (props.open ? '0' : '-100%')};
@@ -18,7 +18,7 @@ export const NavbarWrapper = styled.nav`
     position: initial;
     height: auto;
     justify-content: center;
-    background: #09044b;
+    background: #0d2735;
   }
 
   a {

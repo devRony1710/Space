@@ -6,7 +6,7 @@ export const Navbar = ({ open }) => {
   return (
     <NavbarWrapper open={open}>
       <a href="/">Inicio</a>
-      <a href="/">Sobre Nosotros</a>
+      <a href="#about">Sobre Nosotros</a>
       <a href="/">Servicios</a>
       <a href="/">Portafolio</a>
       <a href="/">Equipo</a>
