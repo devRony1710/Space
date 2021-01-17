@@ -24,7 +24,7 @@ export const MainContent = styled.div`
   padding: 20px;
   text-align: center;
   @media screen and (max-width: 700px) {
-    margin-top: -250px;
+    margin-top: -150px;
   }
 `;
 
