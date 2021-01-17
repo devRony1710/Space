@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Title, TitleContainer } from './MainStyle';
+import { Section, Title } from './MainStyle';
 
 export const Main = () => {
   return (
