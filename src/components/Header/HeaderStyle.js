@@ -5,5 +5,5 @@ export const HeaderWrapper = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #3f3d56;
+  background: #09044b;
 `;

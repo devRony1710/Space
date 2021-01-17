@@ -1,20 +1,27 @@
 import React from 'react';
-import { Section, Title } from './MainStyle';
+import {
+  MainContent,
+  Paragraph,
+  Section,
+  SubTitle,
+  TitleContent,
+} from './MainStyle';
 
 export const Main = () => {
   return (
     <>
       <Section>
-        <Title>
-          <h2>Space Bogota</h2>
-          <h3>
-            Somos una agencia de publicidad, arquitectura & Marketing digital
-          </h3>
-          <p>
+        <MainContent>
+          <TitleContent>Space Bogota</TitleContent>
+          <SubTitle>
+            Somos una agencia de publicidad, <br /> Arquitectura & Marketing
+            Digital
+          </SubTitle>
+          <Paragraph>
             Creamos y cuidamos todos los detalles que definen la personalidad de
             tu marca
-          </p>
-        </Title>
+          </Paragraph>
+        </MainContent>
       </Section>
     </>
   );
