@@ -16,3 +16,18 @@ export const ServiceContainer = styled.div`
     grid-template-rows: auto;
   }
 `;
+
+export const ServiceSection = styled.div`
+  top: 0;
+  margin: 0;
+  background: #f3f8fa;
+`;
+
+export const ServiceTitle = styled.h3`
+  margin: 0;
+  text-align: center;
+  padding: 35px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #08045f;
+`;
