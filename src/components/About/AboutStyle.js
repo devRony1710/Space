@@ -13,7 +13,7 @@ export const AboutContainer = styled.div`
 `;
 
 export const ImgAbout = styled.img`
-  height: 400px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 `;
