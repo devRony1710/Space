@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   MainContent,
-  Paragraph,
   Section,
   SubTitle,
   TitleContent,
@@ -12,15 +11,11 @@ export const Main = () => {
     <>
       <Section>
         <MainContent>
-          <TitleContent>Space Bogota</TitleContent>
+          <TitleContent>Haz realidad tus ideas</TitleContent>
           <SubTitle>
-            Somos una agencia de publicidad, <br /> Arquitectura & Marketing
+            Somos una agencia de Diseño, <br /> Desarrollo & Marketing
             Digital
           </SubTitle>
-          <Paragraph>
-            Creamos y cuidamos todos los detalles que definen la personalidad de
-            tu marca
-          </Paragraph>
         </MainContent>
       </Section>
     </>

@@ -20,7 +20,7 @@ export const Service = () => {
           Icon={Code}
           title={'Desarrollo de Software'}
           content={
-            'Creamos software a la medida del cliente, en base a plantillas 100% personalizadas'
+            'Creamos software a la medida del cliente, para darle un impulso a tu marca en la nueva era digital'
           }
         />
         <ServiceCard

@@ -4,11 +4,11 @@ export const ServiceContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
-  padding: 30px;
+  padding: 0 40px;
   background: #f3f8fa;
 
   & :hover {
-    border: 2px solid powderblue;
+    transform: scale(1.1);
   }
 
   @media screen and (max-width: 700px) {
@@ -18,7 +18,6 @@ export const ServiceContainer = styled.div`
 `;
 
 export const ServiceSection = styled.div`
-  top: 0;
   margin: 0;
   background: #f3f8fa;
 `;
