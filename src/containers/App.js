@@ -7,6 +7,7 @@ import { GlobalStyle } from './GlobalStyle';
 import { About } from '../components/About/About';
 import { Service } from '../components/Service/Services';
 import { Team } from '../components/Team/Team';
+import { TradeMark } from '../components/TradeMark/TradeMarket';
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
       <Main />
       <About />
       <Service />
+      <TradeMark />
       <Team />
     </>
   );

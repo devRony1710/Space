@@ -6,5 +6,5 @@ export const TeamsContainer = styled.div`
     grid-gap: 25px;
     margin: 0;
     padding: 80px 50px;
-    background-color: #222831;
+    background-color: #393e46;
 `
