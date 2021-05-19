@@ -4,10 +4,11 @@ export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 30px;
-  border-radius: 2px;
+  border-radius: 20px;
   border: none;
-  background: #fff;
+  background: #000;
   height: 310px;
   box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
 
@@ -25,14 +26,19 @@ export const CardContainer = styled.div`
  `;
 
 export const CardImg = styled.img`
-  background: powderblue;
+  height: 200px;
   border-radius: 50%;
   padding: 15px;
 `;
 
 export const CardTitle = styled.h4`
-  font-size: auto;
-  color: #08045f;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  color: #FFF;
 `;
 
 export const CardContent = styled.p`

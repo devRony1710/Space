@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   CardContainer,
-  CardContent,
   CardImg,
   CardTitle,
 } from './ServiceCardStyle';
@@ -11,7 +10,7 @@ export const ServiceCard = ({ Icon, title, content }) => {
     <CardContainer>
       <CardImg alt="service logo" src={Icon} />
       <CardTitle>{title}</CardTitle>
-      <CardContent>{content}</CardContent>
+      {/* <CardContent>{content}</CardContent> */}
     </CardContainer>
   );
 };

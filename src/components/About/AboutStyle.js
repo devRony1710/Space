@@ -4,7 +4,7 @@ export const AboutContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 50px;
-  background: #f4f4f4;
+  background: #222831;
   line-height: 35px;
   @media screen and (max-width: 700px) {
     grid-template-columns: 1fr;
@@ -19,14 +19,18 @@ export const ImgAbout = styled.img`
 `;
 
 export const TitleAbout = styled.h3`
+  font-family: Helvetica, sans-serif;
   font-size: 40px;
   text-align: center;
-  color: #08045f;
+  color: #CD0029;
 `;
 
 export const AboutDescription = styled.p`
-  text-align: center;
+  text-align: justify;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
   font-size: 20px;
   font-style: italic;
-  color: #151051;
+  color: #fff;
+  padding: 30px;
+  margin-left: 25px;
 `;

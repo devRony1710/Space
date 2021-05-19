@@ -1,7 +1,5 @@
 import React from 'react';
 
-import AboutImg from '../../assets/static/About.png';
-
 //styles
 import {
   ImgAbout,
@@ -11,6 +9,9 @@ import {
 } from './AboutStyle';
 
 export const About = () => {
+
+  const AboutImg = 'https://res.cloudinary.com/ronyaab/image/upload/v1621058577/Space/zXcvb_gqwnno.png';
+
   return (
     <AboutContainer id="about">
       <div>
